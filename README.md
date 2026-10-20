@@ -1,3 +1,7 @@
+<!-- SVENKUNKKA-README-NAV:BEGIN -->
+[中文项目说明](#project-overview-zh) · [English overview](#project-overview-en) · [维护者 X / Maintainer on X](https://x.com/Svenu1s5)
+<!-- SVENKUNKKA-README-NAV:END -->
+
 # Hi3DGen: High-fidelity 3D Geometry Generation from Images via Normal Bridging
 
 <div class="is-size-5 publication-authors">
@@ -72,3 +76,32 @@ If you find this work helpful, please consider citing our paper:
   year={2025}
 }
 ```
+
+
+---
+
+<!-- SVENKUNKKA-PROJECT-INFO:BEGIN -->
+
+<a id="project-overview-zh"></a>
+## 中文项目说明
+
+Hi3DGen 图像到三维几何生成研究项目的 Fork，通过法线图作为中间表示，探索细节几何重建。GitHub 上游为 [Stable-X/Stable3DGen](https://github.com/Stable-X/Stable3DGen)，本仓库保留 Hi3DGen 论文与作者信息。
+
+**使用入口：** 按原 README 配置 Python、匹配 CUDA 的 PyTorch 及依赖后，运行 `python app.py` 启动本地演示；在线演示、论文与模型链接见原 README。
+
+**范围说明：** 代码与模型基于 TRELLIS 适配；环境与模型依赖需按原说明配置，论文作者和上游许可证保持原归属。
+
+<a id="project-overview-en"></a>
+## English project overview
+
+A fork of the Hi3DGen image-to-3D geometry research project, using normal maps as an intermediate representation for detailed reconstruction. The GitHub parent is [Stable-X/Stable3DGen](https://github.com/Stable-X/Stable3DGen); this snapshot retains Hi3DGen paper and author information.
+
+**Getting started:** Configure Python, CUDA-matched PyTorch, and dependencies as documented, then run `python app.py` for the local demo. Online demo, paper, and model links are provided in the original README.
+
+**Scope:** Code and models are adapted from TRELLIS. Follow the documented environment and model requirements; research authorship and upstream licensing remain credited.
+
+**本 Fork 的维护者 / Maintainer of this fork:** [SvenKunkka](https://github.com/SvenKunkka) · [X / Twitter](https://x.com/Svenu1s5)
+
+**上游项目 / Upstream:** [Stable-X/Stable3DGen](https://github.com/Stable-X/Stable3DGen)。保留原作者署名与原许可证 / Original authorship and license notices are retained.
+
+<!-- SVENKUNKKA-PROJECT-INFO:END -->
